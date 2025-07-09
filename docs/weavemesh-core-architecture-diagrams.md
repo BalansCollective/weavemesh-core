@@ -111,11 +111,11 @@ graph TB
     Storage -.->|"HashMap access"| MeshRes
     Tokens -.->|"Attribution calc"| Attribution
     
-    classDef core fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    classDef collaboration fill:#f3e5f5,stroke:#880e4f,stroke-width:2px
-    classDef mesh fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
-    classDef networking fill:#fff3e0,stroke:#e65100,stroke-width:2px
-    classDef infrastructure fill:#ffebee,stroke:#b71c1c,stroke-width:2px
+    classDef core fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000000
+    classDef collaboration fill:#f3e5f5,stroke:#880e4f,stroke-width:2px,color:#000000
+    classDef mesh fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px,color:#000000
+    classDef networking fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000000
+    classDef infrastructure fill:#ffebee,stroke:#b71c1c,stroke-width:2px,color:#000000
     
     class Node,Context,Serialization core
     class SacredAlliance,GroupComm,Attribution,Situation collaboration
@@ -188,9 +188,9 @@ flowchart LR
     EC3 -.->|"Partnership Enhancement"| CI2
     EC4 -.->|"Boundary Evolution"| IA3
     
-    classDef individual fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    classDef collective fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
-    classDef enhanced fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    classDef individual fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000000
+    classDef collective fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px,color:#000000
+    classDef enhanced fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000000
     
     class IA1,IA2,IA3,IA4 individual
     class CI1,CI2,CI3,CI4 collective
