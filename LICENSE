@@ -1,0 +1,87 @@
+# WeaveMesh Core License
+## Modified MIT License with Domain Restrictions
+
+**Copyright (c) 2025 Samuel Lindgren / Balans**
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+## Standard MIT Conditions
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+## Domain Restrictions
+
+**MILITARY AND CLINICAL APPLICATIONS RESERVED**
+
+The following applications are EXCLUDED from this license and require separate
+commercial licensing from Balans:
+
+### Military Applications (Reserved for Balans)
+- Defense systems and military communications
+- Intelligence analysis and military training
+- Strategic planning and military decision support
+- Any application for military or defense purposes
+- Government defense contracts and military research
+
+### Clinical Applications (Reserved for Balans)
+- Therapeutic AI and medical decision support
+- Clinical training and medical education systems
+- Mental health applications and psychological tools
+- Clinical trials and patient care applications
+- Healthcare government contracts and clinical services
+
+### Permitted Applications
+All other applications are permitted under this license, including:
+- Enterprise and business applications
+- Educational and academic use (non-clinical)
+- Consumer applications and productivity tools
+- Research (non-military, non-clinical)
+- Commercial software development
+- Open source projects and community development
+
+## Commercial Licensing
+
+For military or clinical applications, contact:
+- **Email**: samuel@balans.se
+- **Company**: Balans Collective AB
+- **Website**: https://balans-collective.com
+
+## Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Attribution
+
+This software implements collaborative individuation principles and Sacred
+Alliance protocols developed by Samuel Lindgren. When using this software
+in derivative works, please maintain attribution to the original concepts
+and methodology.
+
+## License Compatibility
+
+This license is compatible with:
+- MIT License (for permitted domains)
+- Apache 2.0 License (for permitted domains)
+- BSD Licenses (for permitted domains)
+- Most open source licenses (for permitted domains)
+
+For questions about license compatibility or domain boundaries, please contact
+the copyright holder.
+
+---
+
+**License Type**: Modified MIT with Domain Restrictions  
+**Effective Date**: 2025-07-09  
+**Version**: 1.0

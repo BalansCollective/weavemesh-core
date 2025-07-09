@@ -1,0 +1,76 @@
+[package]
+name = "weavemesh-core"
+version = "0.1.0"
+edition = "2021"
+description = "Universal communication primitives for WeaveMesh - the open source core"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/samiamlabs/weavemesh-core"
+keywords = ["communication", "mesh", "collaboration", "p2p", "networking"]
+categories = ["network-programming", "api-bindings", "development-tools"]
+
+[dependencies]
+# Core networking and serialization
+zenoh = "1.0.0"
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rmp-serde = "1.1"
+uuid = { version = "1.0", features = ["v4", "serde"] }
+
+# Async and futures
+futures = "0.3"
+async-trait = "0.1"
+
+# Error handling
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Cryptography and security
+ring = "0.17"
+base64 = "0.22"
+
+# HTTP server
+axum = "0.7"
+tower = "0.4"
+tower-http = { version = "0.5", features = ["cors", "trace"] }
+
+# Logging and tracing
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+# Configuration
+config = "0.14"
+toml = "0.8"
+
+# Time handling
+chrono = { version = "0.4", features = ["serde"] }
+
+# System utilities
+hostname = "0.3"
+
+# Storage
+sled = "0.34"
+
+[dev-dependencies]
+tokio-test = "0.4"
+tempfile = "3.0"
+
+[features]
+default = ["full"]
+full = ["networking", "security", "financial", "storage"]
+networking = []
+security = []
+financial = []
+storage = []
+
+[[example]]
+name = "basic_node"
+path = "examples/basic_node.rs"
+
+[[example]]
+name = "simple_communication"
+path = "examples/simple_communication.rs"
+
+[[example]]
+name = "collaborative_individuation_demo"
+path = "examples/collaborative_individuation_demo.rs"
