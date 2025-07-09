@@ -300,9 +300,9 @@ graph TB
     Auth --> Enhanced
     Auth --> Military
     
-    classDef security fill:#ffebee,stroke:#b71c1c,stroke-width:2px
-    classDef auth fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
-    classDef levels fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    classDef security fill:#ffebee,stroke:#b71c1c,stroke-width:2px,color:#000000
+    classDef auth fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px,color:#000000
+    classDef levels fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000000
     
     class Core,Mod,Auth,YubiKey,Authz security
     class None,Basic,Enhanced,Military auth
@@ -387,10 +387,10 @@ graph TB
         WS --> BROAD[Broadcasting<br/>Pattern Propagation]
     end
     
-    classDef storage fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
-    classDef tokens fill:#f1f8e9,stroke:#388e3c,stroke-width:2px
-    classDef financial fill:#fff8e1,stroke:#f57c00,stroke-width:2px
-    classDef http fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    classDef storage fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#000000
+    classDef tokens fill:#f1f8e9,stroke:#388e3c,stroke-width:2px,color:#000000
+    classDef financial fill:#fff8e1,stroke:#f57c00,stroke-width:2px,color:#000000
+    classDef http fill:#fce4ec,stroke:#c2185b,stroke-width:2px,color:#000000
     
     class SS,MS,RM,AC,STORE,GET,LIST,DEL,ID,NAME,TYPE,TAGS,PRIV,NODES,GROUPS storage
     class TS,TA,AR,CALC,LIMITS,BIZ,ALLOC,REASON,META,CONTRIB,EXPL,CONF tokens
@@ -493,9 +493,9 @@ graph TB
     SA_BC --> B_ID
     SA_BC --> C_ID
     
-    classDef node fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    classDef discovery fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
-    classDef alliance fill:#f3e5f5,stroke:#880e4f,stroke-width:2px
+    classDef node fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000000
+    classDef discovery fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px,color:#000000
+    classDef alliance fill:#f3e5f5,stroke:#880e4f,stroke-width:2px,color:#000000
     
     class A_ID,A_CAP,A_CTX,B_ID,B_CAP,B_CTX,C_ID,C_CAP,C_CTX node
     class DISC,CAP_MATCH,CTX_FILTER discovery
@@ -565,11 +565,11 @@ flowchart TD
     AI --> PRACT
     TRACK --> CORR
     
-    classDef event fill:#fff3e0,stroke:#e65100,stroke-width:2px
-    classDef attribution fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
-    classDef policy fill:#f1f8e9,stroke:#388e3c,stroke-width:2px
-    classDef distribution fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
-    classDef anchoring fill:#ffebee,stroke:#b71c1c,stroke-width:2px
+    classDef event fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000000
+    classDef attribution fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px,color:#000000
+    classDef policy fill:#f1f8e9,stroke:#388e3c,stroke-width:2px,color:#000000
+    classDef distribution fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#000000
+    classDef anchoring fill:#ffebee,stroke:#b71c1c,stroke-width:2px,color:#000000
     
     class CE,CONTRIB,OUTCOME event
     class AE,MEASURE,CONF,REASON attribution
@@ -644,11 +644,11 @@ graph TB
     GROWTH --> CC
     BOUNDARIES --> BC
     
-    classDef core fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    classDef family fill:#f3e5f5,stroke:#880e4f,stroke-width:2px
-    classDef work fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
-    classDef research fill:#fff3e0,stroke:#e65100,stroke-width:2px
-    classDef learning fill:#ffebee,stroke:#b71c1c,stroke-width:2px
+    classDef core fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000000
+    classDef family fill:#f3e5f5,stroke:#880e4f,stroke-width:2px,color:#000000
+    classDef work fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px,color:#000000
+    classDef research fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000000
+    classDef learning fill:#ffebee,stroke:#b71c1c,stroke-width:2px,color:#000000
     
     class IC,CC,BC core
     class FC,FG,FA,FR family
@@ -737,12 +737,12 @@ flowchart TB
     GROWTH -.->|"Capability Evolution"| GROUP
     VALUE -.->|"System Improvement"| ATTRIBUTION
     
-    classDef entry fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
-    classDef security fill:#ffebee,stroke:#b71c1c,stroke-width:2px
-    classDef protocol fill:#f1f8e9,stroke:#388e3c,stroke-width:2px
-    classDef collaboration fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
-    classDef infrastructure fill:#fff3e0,stroke:#e65100,stroke-width:2px
-    classDef outputs fill:#f3e5f5,stroke:#880e4f,stroke-width:2px
+    classDef entry fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#000000
+    classDef security fill:#ffebee,stroke:#b71c1c,stroke-width:2px,color:#000000
+    classDef protocol fill:#f1f8e9,stroke:#388e3c,stroke-width:2px,color:#000000
+    classDef collaboration fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px,color:#000000
+    classDef infrastructure fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000000
+    classDef outputs fill:#f3e5f5,stroke:#880e4f,stroke-width:2px,color:#000000
     
     class HTTP,DIRECT,PLUGIN entry
     class AUTH,AUTHZ,CONTEXT security
