@@ -341,7 +341,7 @@ mod tests {
             security_services: true,
             protocols: vec!["zenoh".to_string()],
             max_connections: 10,
-            custom_capabilities: HashMap::new(),
+            context_capabilities: HashMap::new(),
         };
         
         let cap2 = NodeCapabilities {
@@ -349,7 +349,7 @@ mod tests {
             security_services: false,
             protocols: vec!["zenoh".to_string()],
             max_connections: 5,
-            custom_capabilities: HashMap::new(),
+            context_capabilities: HashMap::new(),
         };
         
         assert!(nodes_compatible(&cap1, &cap2));
@@ -359,7 +359,7 @@ mod tests {
             security_services: true,
             protocols: vec!["zenoh".to_string()],
             max_connections: 10,
-            custom_capabilities: HashMap::new(),
+            context_capabilities: HashMap::new(),
         };
         
         assert!(!nodes_compatible(&cap1, &cap3));

@@ -57,6 +57,8 @@ pub enum CollaborationType {
     Individual,
     /// Automated work (AI only)
     Automated,
+    /// Coordination between multiple contributors
+    Coordination,
     /// Custom collaboration type
     Custom(String),
 }

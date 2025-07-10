@@ -52,6 +52,9 @@ pub mod storage;
 pub mod tokens;
 pub mod http;
 pub mod situation;
+pub mod git;
+pub mod ide;
+pub mod narrative;
 
 // Re-export main types for convenience
 pub use protocol::{
